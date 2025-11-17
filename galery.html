@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Mulish -->
+    <link rel="stylesheet" href="font/mulish/stylesheet.css">
+    <!-- Font Popins -->
+    <link rel="stylesheet" href="font/poppins/stylesheet.css">
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="style/index.css">
+
+    <title>Title</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_block">
+                    <div class="header_top">
+                        <div class="boxs">
+                            <div class="box">
+                                <b>Москва</b>
+                                <div class="header_tel">
+                                    <a href="tel:+7 (495) 680-44-95">+7 (495) 680-44-95 /</a>
+                                    <a href="tel:+7 (495) 680-92-00">+7 (495) 680-92-00</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <b>Спб</b>
+                                <a href="tel:+7 (921) 384-97-75 ">+7 (921) 384-97-75 </a>
+                            </div>
+                        </div>
+
+                        <div class="header_social">
+                            <a href="#" class="social_link">
+                                <img src="img/whatsapp.svg" alt="">
+                                <span>+7 (925) 294-91-85</span>
+                            </a>
+                            <a href="#" class="social_link">
+                                <img src="img/telegram.svg" alt="">
+                            </a>
+                            <a href="#" class="social_link">
+                                <img src="img/wk.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="header_bottom">
+                        <a href="index.html" class="header_logo">
+                            <img src="img/logo.svg" alt="" class="logo1">
+                            <img src="img/logo-mob.svg" alt="" class="logo2">
+                        </a>
+                        <div class="header_search-wrap">
+                            <div class="header_search">
+                                <input type="search" id="searchInp" placeholder="Товар или артикул" class="search_inp">
+                                <label for="searchInp" class="search_btn"><img src="img/search.svg" alt=""></label>
+                            </div>
+
+                            <div class="search_modal">
+                                <div class="search_modal-boxs">
+                                    <div class="search_modal-box">
+                                        <img src="img/search-modal-img1.png" alt="" class="search_modal-img">
+                                        <div class="search_modal-info">
+                                            <a href="#!">Чашка с блюдцем BL02</a>
+                                            <div class="price">
+                                                <b>890 р.</b>
+                                                <span>1 199 р.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search_modal-box">
+                                        <img src="img/search-modal-img2.png" alt="" class="search_modal-img">
+                                        <div class="search_modal-info">
+                                            <a href="#!">Новогодняя игрушка чашка с блюдцем D076 Гирлянда</a>
+                                            <div class="price">
+                                                <b>1 100 р.</b>
+                                                <span>1 230 р.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search_modal-box">
+                                        <img src="img/search-modal-img3.png" alt="" class="search_modal-img">
+                                        <div class="search_modal-info">
+                                            <a href="#!">Чайная пара большая F036 Заплатки</a>
+                                            <div class="price">
+                                                <b>1 100 р.</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search_modal-box">
+                                        <img src="img/search-modal-img1.png" alt="" class="search_modal-img">
+                                        <div class="search_modal-info">
+                                            <a href="#!">Чашка с блюдцем BL02</a>
+                                            <div class="price">
+                                                <b>890 р.</b>
+                                                <span>1 199 р.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="search_category">
+                                    <b>Категории</b>
+                                    <div class="search_category-links">
+                                        <a href="#!">Чайные и кофейные пары</a>
+                                        <a href="#!">Чайные и кофейные пары</a>
+                                        <a href="#!">Посуда</a>
+                                        <a href="#!">Название категории</a>
+                                        <a href="#!">Пасхальные яйца</a>
+                                        <a href="#!">Чайные пары</a>
+                                        <a href="#!">Чайные и кофейные пары</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_tabs">
+                            <a href="#!" class="header_tab">
+                                <div class="item_img">
+                                    <img src="img/heart.svg" alt="">
+                                    <b class="red">1</b>
+                                </div>
+                                <span>ИЗБРАННОЕ</span>
+                            </a>
+                            <a href="#!" class="header_tab">
+                                <div class="item_img">
+                                    <img src="img/user.svg" alt="">
+                                </div>
+                                <span>ПРОФИЛЬ</span>
+                            </a>
+                            <a href="#!" class="header_tab basketModalOpen">
+                                <div class="item_img">
+                                    <img src="img/cart.svg" alt="">
+                                    <b class="blue">3</b>
+                                </div>
+                                <span>КОРЗИНА <img src="img/arrow-down2.svg" alt=""></span>
+                            </a>
+                        </div>
+                        <button class="header_bars">
+                            <img src="img/hamburger.svg" alt="" class="bars-menu">
+                            <img src="img/close-menu.svg" alt="" class="close-menu">
+                        </button>
+                    </div>
+                    <div class="header_nav">
+                        <button class="dropdown-button" id="catalogButton">Каталог<img src="img/arrow-down.svg" alt=""></button>
+
+                            <div class="dropdown-content" id="menu">
+                                <div class="all_categrys">
+                                    <div class="first_menu">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Посуда <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Дерево <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Чай <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a class="active" href="#">Декор интерьера <img src="img/menu2.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Открытки <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Бижутерия <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Текстиль <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Упаковка <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Елочные игрушки <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Подарочные сертификаты <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                        </ul>
+                                   </div>
+                                   <div class="second_menus">
+                                        <div class="items">
+                                            <ul>
+                                                <li><a href="#">Вазы</a></li>
+                                                <li><a href="#">Колокольчики</a></li>
+                                                <li><a href="#">Лейки и цветочные горшки</a></li>
+                                                <li><a href="#">Магниты на холодильник</a></li>
+                                                <li><a href="#">Наперстки и пуговицы</a></li>
+                                                <li><a href="#">Пасхальные яйца</a></li>
+                                                <li><a href="#">Предметы для ванной комнаты</a></li>
+                                                <li><a href="#">Магниты на холодильник</a></li>
+                                                <li><a href="#">Наперстки и пуговицы</a></li>
+                                                <li><a href="#">Пасхальные яйца</a></li>
+                                                <li><a href="#">Предметы для ванной комнаты</a></li>
+                                                <li><a href="#">Светильники</a></li>
+                                                <li><a href="#">Фигурки керамические</a></li>
+                                                <li><a href="#">Фурнитура</a></li>
+                                                <li><a href="#">Свечи</a></li>
+                                                <li><a href="#">Часы</a></li>
+                                                <li><a href="#">Интерьерные подвески</a></li>
+                                                <li><a href="#">Новинки!</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="items">
+                                            <ul>
+                                                <li><a href="#">Вазы</a></li>
+                                                <li><a href="#">Колокольчики</a></li>
+                                                <li><a href="#">Лейки и цветочные горшки</a></li>
+                                                <li><a href="#">Магниты на холодильник</a></li>
+                                                <li><a href="#">Наперстки и пуговицы</a></li>
+                                                <li><a href="#">Пасхальные яйца</a></li>
+                                                <li><a href="#">Предметы для ванной комнаты</a></li>
+                                                <li><a href="#">Светильники</a></li>
+                                                <li><a href="#">Фигурки керамические</a></li>
+                                                <li><a href="#">Фурнитура</a></li>
+                                                <li><a href="#">Свечи</a></li>
+                                                <li><a href="#">Часы</a></li>
+                                                <li><a class="green_word" href="#">Новинки!</a></li>
+                                                <p>Распродажа 20-30-40%</p>
+                                                
+                                            </ul>
+                                        </div>
+                                   </div>
+                                   <div class="recommend_group">
+                                        <div class="title">
+                                            <h2>Мы рекомендуем:</h2>
+                                        </div>
+                                        <div class="itemss">
+                                            <div class="item1">
+                                                <div class="ite">
+                                                    <img src="img/rec1.png" alt="">
+                                                    <p>Пасха в доме</p>
+                                                </div>
+                                                <div class="ite">
+                                                    <img src="img/rec2.png" alt="">
+                                                    <p>Солнечный паттерн</p>
+                                                </div>
+                                            </div>
+                                            <div class="item1">
+                                                <div class="ite">
+                                                    <img src="img/rec3.png" alt="">
+                                                    <p>Яблочный спас</p>
+                                                </div>
+                                                <div class="ite">
+                                                    <img src="img/rec4.png" alt="">
+                                                    <p>Планы на лето</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                   </div>
+                                   <div class="secret_btns">
+                                        <button class="close-button" id="closeButton">скрыть <img src="img/x.svg" alt=""></button>
+                                   </div>
+                                </div>
+                               
+                            </div>
+                        <a href="#" class="nav_link">Орнаменты <img src="img/arrow-down.svg" alt=""></a>
+                        <button class="dropdown-button" id="catalogButton1">О керамике<img src="img/arrow-down.svg" alt=""></button>
+
+                        <div class="dropdown-content" id="menu1">
+                            <div class="all_categrys">
+                                <div class="first_menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Использование керамики <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Производство <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">История <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                       
+                                        <li>
+                                            <a href="#">О Птице Синице <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отзывы <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Опт <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        
+                                    </ul>
+                               </div>
+                            
+                               <div class="recommend_group recommend_group2">
+                                    <div class="title">
+                                        <h2>Мы рекомендуем:</h2>
+                                    </div>
+                                    <div class="itemss">
+                                        <div class="item1">
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+                               </div>
+                               <div class="secret_btns">
+                                    <button class="close-button1" id="closeButton1">скрыть <img src="img/x.svg" alt=""></button>
+                               </div>
+                            </div>
+                           
+                        </div>
+                        <a href="#" class="nav_link">Доставка и оплата <img src="img/arrow-down.svg" alt=""></a>
+                        <a href="#" class="nav_link">Контакты</a>
+                        <a href="#" class="nav_link">Подарочные карты</a>
+                        <a href="#" class="nav_link">Новый год</a>
+                        <a href="#" class="nav_link red">Акция</a>
+                        <a href="#" class="nav_link green">Новинки</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header_mob">
+                <div class="header_tabs">
+                    <a href="#!" class="header_tab">
+                        <div class="item_img">
+                            <img src="img/heart.svg" alt="">
+                            <b class="red">1</b>
+                        </div>
+                        <span>ИЗБРАННОЕ</span>
+                    </a>
+                    <a href="#!" class="header_tab">
+                        <div class="item_img">
+                            <img src="img/user.svg" alt="">
+                        </div>
+                        <span>ПРОФИЛЬ</span>
+                    </a>
+                    <a href="#!" class="header_tab basketModalOpen">
+                        <div class="item_img">
+                            <img src="img/cart.svg" alt="">
+                            <b class="blue">3</b>
+                        </div>
+                        <span>КОРЗИНА</span>
+                    </a>
+                </div>
+
+                <div class="header_mob-block">
+                    <div class="header_nav">
+                        <button class="dropdown-button" id="catalogButton3">Каталог<img src="img/arrow-down.svg" alt=""></button>
+
+                        <div class="dropdown-content" id="menu3">
+                            <div class="all_categrys">
+                                <div class="first_menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Посуда <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Дерево <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Чай <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a class="active" href="#">Декор интерьера <img src="img/menu2.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Открытки <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Бижутерия <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Текстиль <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Упаковка <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Елочные игрушки <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Подарочные сертификаты <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                    </ul>
+                               </div>
+                               <div class="second_menus">
+                                    <div class="items">
+                                        <ul>
+                                            <li><a href="#">Вазы</a></li>
+                                            <li><a href="#">Колокольчики</a></li>
+                                            <li><a href="#">Лейки и цветочные горшки</a></li>
+                                            <li><a href="#">Магниты на холодильник</a></li>
+                                            <li><a href="#">Наперстки и пуговицы</a></li>
+                                            <li><a href="#">Пасхальные яйца</a></li>
+                                            <li><a href="#">Предметы для ванной комнаты</a></li>
+                                            <li><a href="#">Магниты на холодильник</a></li>
+                                            <li><a href="#">Наперстки и пуговицы</a></li>
+                                            <li><a href="#">Пасхальные яйца</a></li>
+                                            <li><a href="#">Предметы для ванной комнаты</a></li>
+                                            <li><a href="#">Светильники</a></li>
+                                            <li><a href="#">Фигурки керамические</a></li>
+                                            <li><a href="#">Фурнитура</a></li>
+                                            <li><a href="#">Свечи</a></li>
+                                            <li><a href="#">Часы</a></li>
+                                            <li><a href="#">Интерьерные подвески</a></li>
+                                            <li><a href="#">Новинки!</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="items">
+                                        <ul>
+                                            <li><a href="#">Вазы</a></li>
+                                            <li><a href="#">Колокольчики</a></li>
+                                            <li><a href="#">Лейки и цветочные горшки</a></li>
+                                            <li><a href="#">Магниты на холодильник</a></li>
+                                            <li><a href="#">Наперстки и пуговицы</a></li>
+                                            <li><a href="#">Пасхальные яйца</a></li>
+                                            <li><a href="#">Предметы для ванной комнаты</a></li>
+                                            <li><a href="#">Светильники</a></li>
+                                            <li><a href="#">Фигурки керамические</a></li>
+                                            <li><a href="#">Фурнитура</a></li>
+                                            <li><a href="#">Свечи</a></li>
+                                            <li><a href="#">Часы</a></li>
+                                            <li><a class="green_word" href="#">Новинки!</a></li>
+                                            <p>Распродажа 20-30-40%</p>
+                                            
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="recommend_group">
+                                    <div class="title">
+                                        <h2>Мы рекомендуем:</h2>
+                                    </div>
+                                    <div class="itemss">
+                                        <div class="item1">
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                        </div>
+                                        <div class="item1">
+                                            <div class="ite">
+                                                <img src="img/rec3.png" alt="">
+                                                <p>Яблочный спас</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec4.png" alt="">
+                                                <p>Планы на лето</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="secret_btns">
+                                    <button class="close-button3" id="closeButton3">скрыть <img src="img/x.svg" alt=""></button>
+                               </div>
+                            </div>
+                           
+                        </div>
+                        <a href="#" class="nav_link">Орнаменты <img src="img/arrow-down.svg" alt=""></a>
+                        <button class="dropdown-button" id="catalogButton4">О керамике<img src="img/arrow-down.svg" alt=""></button>
+
+                        <div class="dropdown-content dropdown-content2" id="menu4">
+                            <div class="all_categrys">
+                                <div class="first_menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Использование керамики <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Производство <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">История <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                       
+                                        <li>
+                                            <a href="#">О Птице Синице <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отзывы <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Опт <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        
+                                    </ul>
+                               </div>
+                            
+                               <div class="recommend_group recommend_group2">
+                                    <div class="title">
+                                        <h2>Мы рекомендуем:</h2>
+                                    </div>
+                                    <div class="itemss">
+                                        <div class="item1">
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+                               </div>
+                               <div class="secret_btns">
+                                    <button class="close-button4" id="closeButton4">скрыть <img src="img/x.svg" alt=""></button>
+                               </div>
+                            </div>
+                           
+                        </div>
+                        <a href="#" class="nav_link">Доставка и оплата <img src="img/arrow-down.svg" alt=""></a>
+                        <a href="#" class="nav_link">Контакты</a>
+                        <a href="#" class="nav_link">Подарочные карты</a>
+                        <a href="#" class="nav_link">Новый год</a>
+                        <a href="#" class="nav_link red">Акция</a>
+                        <a href="#" class="nav_link green">Новинки</a>
+                    </div>
+                    
+                    <div class="boxs">
+                        <div class="box">
+                            <b>Москва</b>
+                            <div class="header_tel">
+                                <a href="tel:+7 (495) 680-44-95">+7 (495) 680-44-95 </a>
+                                <a href="tel:+7 (495) 680-92-00">+7 (495) 680-92-00</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <b>Спб</b>
+                            <a href="tel:+7 (921) 384-97-75 ">+7 (921) 384-97-75 </a>
+                        </div>
+                    </div>
+    
+                    <div class="header_mob-social">
+                        <a href="#!"><img src="img/whatsapp-big.svg" alt=""></a>
+                        <a href="#!"><img src="img/telegram-big.svg" alt=""></a>
+                        <a href="#!"><img src="img/wk-big.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="breadcrumb">
+                <div class="container">
+                    <div class="breadcrumb-items">
+                        <a href="./home.html" class="breadcrumb-link">
+                            <span>О керамике</span>
+                        </a>
+                        <img src="img/breadcrumb-arrow.svg" alt="" class="breadcrumb-arrow">
+                        <span class="breadcrumb-span">Фотогалерея</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="galery_sec">
+                <div class="container">
+                    <div class="dishes_block">
+                        <div class="dishes_tabs">
+                            <button class="filter_btn">
+                                <div class="filter_btn-info">
+                                    <img src="img/filter-circle.svg" alt="" class="filter_btn-img1">
+                                    <img src="img/х.svg" alt="" class="filter_btn-img2">
+                                    Скрыть фильтр
+                                </div>
+                                <img src="img/filter-arrow.svg" alt="" class="filter-arrow-icon">
+                            </button>
+                            <div class="dishes_filters galery_filters">
+                                <div class="filters_tabs">
+                                    <button class="filters_tab">
+                                        <span>Название группы фото (тематический каталог)</span>
+                                        <img src="img/filter-arrow.svg" alt="">
+                                    </button>
+                                    <div class="filters_tab-value">
+                                        <span>группы 1</span>
+                                        <span>группы 2</span>
+                                        <span>группы 3</span>
+                                    </div>
+                                </div>
+                                <div class="filters_tabs">
+                                    <button class="filters_tab">
+                                        <span>Тип фото</span>
+                                        <img src="img/filter-arrow.svg" alt="">
+                                    </button>
+                                    <div class="filters_tab-value">
+                                        <span>фото 1</span>
+                                        <span>фото 2</span>
+                                        <span>фото 3</span>
+                                    </div>
+                                </div>
+                                <div class="filters_tabs">
+                                    <button class="filters_tab">
+                                        <span>Орнамент</span>
+                                        <img src="img/filter-arrow.svg" alt="">
+                                    </button>
+                                    <div class="filters_tab-value">
+                                        <span>Орнамент 1</span>
+                                        <span>Орнамент 2</span>
+                                        <span>Орнамент 3</span>
+                                    </div>
+                                </div>
+                                <div class="filters_tabs">
+                                    <button class="filters_tab">
+                                        <span>Раздел каталога</span>
+                                        <img src="img/filter-arrow.svg" alt="">
+                                    </button>
+                                    <div class="filters_tab-value">
+                                        <span>Раздел 1</span>
+                                        <span>Раздел 2</span>
+                                        <span>Раздел 3</span>
+                                    </div>
+                                </div>
+                                <div class="filters_tabs">
+                                    <button class="filters_tab">
+                                        <span>Период публикации</span>
+                                        <img src="img/filter-arrow.svg" alt="">
+                                    </button>
+                                    <div class="filters_tab-value">
+                                        <span>публикации 1</span>
+                                        <span>публикации 2</span>
+                                        <span>публикации 3</span>
+                                    </div>
+                                </div>
+                                <div class="galery_filters-none"></div>
+                                <div class="filters_tabs">
+                                    <button class="filters_tab">
+                                        <span>Имя файла</span>
+                                        <img src="img/filter-arrow.svg" alt="">
+                                    </button>
+                                    <div class="filters_tab-value">
+                                        <span>Имя файла 1</span>
+                                        <span>Имя файла 2</span>
+                                        <span>Имя файла 3</span>
+                                    </div>
+                                </div>
+
+                                <a href="#!" class="galery_link">Искать</a>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="galery_block">
+                        <div class="galery_cards">
+                            <div class="galery_big-card" id="bigCard1">
+                                <div class="galery_card-item" id="bigItem1">
+                                    <img src="img/galery-img1.jpg" alt="" class="galery_img">  
+                                    <a href="#!" class="galery_card-tab">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.68009 12.5421C9.68844 12.5421 10.5457 12.1893 11.2518 11.4837C11.9579 10.7781 12.3107 9.92092 12.3102 8.91203C12.3096 7.90314 11.9568 7.04617 11.2518 6.34113C10.5468 5.63609 9.68952 5.28304 8.68009 5.28196C7.67067 5.28089 6.8137 5.63394 6.1092 6.34113C5.4047 7.04832 5.05164 7.90529 5.05003 8.91203C5.04841 9.91876 5.40147 10.776 6.1092 11.4837C6.81693 12.1915 7.67389 12.5442 8.68009 12.5421ZM8.68009 10.9287C8.11542 10.9287 7.63813 10.7338 7.24823 10.3439C6.85834 9.95399 6.66339 9.4767 6.66339 8.91203C6.66339 8.34735 6.85834 7.87006 7.24823 7.48017C7.63813 7.09027 8.11542 6.89532 8.68009 6.89532C9.24477 6.89532 9.72206 7.09027 10.112 7.48017C10.5018 7.87006 10.6968 8.34735 10.6968 8.91203C10.6968 9.4767 10.5018 9.95399 10.112 10.3439C9.72206 10.7338 9.24477 10.9287 8.68009 10.9287ZM2.22664 15.3655C1.78297 15.3655 1.40329 15.2076 1.08761 14.892C0.771929 14.5763 0.613819 14.1963 0.613281 13.7521V4.07194C0.613281 3.62826 0.771391 3.24859 1.08761 2.93291C1.40383 2.61722 1.78351 2.45911 2.22664 2.45858H4.76769L6.26005 0.845215H11.1001L12.5925 2.45858H15.1335C15.5772 2.45858 15.9572 2.61669 16.2734 2.93291C16.5896 3.24912 16.7474 3.6288 16.7469 4.07194V13.7521C16.7469 14.1958 16.5891 14.5757 16.2734 14.892C15.9577 15.2082 15.5778 15.366 15.1335 15.3655H2.22664ZM2.22664 13.7521H15.1335V4.07194H11.8665L10.3943 2.45858H6.9659L5.4937 4.07194H2.22664V13.7521Z" fill="#002873"/>
+                                        </svg>
+                                        <span>Сочетай и миксуй</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="galery_small-card" id="smallCard1">
+                                <div class="galery_card-item" id="smallItem1">
+                                    <img src="img/galery-img2.png" alt="" class="galery_img">  
+                                    <a href="#!" class="galery_card-tab">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.68009 12.5421C9.68844 12.5421 10.5457 12.1893 11.2518 11.4837C11.9579 10.7781 12.3107 9.92092 12.3102 8.91203C12.3096 7.90314 11.9568 7.04617 11.2518 6.34113C10.5468 5.63609 9.68952 5.28304 8.68009 5.28196C7.67067 5.28089 6.8137 5.63394 6.1092 6.34113C5.4047 7.04832 5.05164 7.90529 5.05003 8.91203C5.04841 9.91876 5.40147 10.776 6.1092 11.4837C6.81693 12.1915 7.67389 12.5442 8.68009 12.5421ZM8.68009 10.9287C8.11542 10.9287 7.63813 10.7338 7.24823 10.3439C6.85834 9.95399 6.66339 9.4767 6.66339 8.91203C6.66339 8.34735 6.85834 7.87006 7.24823 7.48017C7.63813 7.09027 8.11542 6.89532 8.68009 6.89532C9.24477 6.89532 9.72206 7.09027 10.112 7.48017C10.5018 7.87006 10.6968 8.34735 10.6968 8.91203C10.6968 9.4767 10.5018 9.95399 10.112 10.3439C9.72206 10.7338 9.24477 10.9287 8.68009 10.9287ZM2.22664 15.3655C1.78297 15.3655 1.40329 15.2076 1.08761 14.892C0.771929 14.5763 0.613819 14.1963 0.613281 13.7521V4.07194C0.613281 3.62826 0.771391 3.24859 1.08761 2.93291C1.40383 2.61722 1.78351 2.45911 2.22664 2.45858H4.76769L6.26005 0.845215H11.1001L12.5925 2.45858H15.1335C15.5772 2.45858 15.9572 2.61669 16.2734 2.93291C16.5896 3.24912 16.7474 3.6288 16.7469 4.07194V13.7521C16.7469 14.1958 16.5891 14.5757 16.2734 14.892C15.9577 15.2082 15.5778 15.366 15.1335 15.3655H2.22664ZM2.22664 13.7521H15.1335V4.07194H11.8665L10.3943 2.45858H6.9659L5.4937 4.07194H2.22664V13.7521Z" fill="#002873"/>
+                                        </svg>
+                                        <span>Творчество покупателей</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="galery_cards">
+                            <div class="galery_big-card" id="bigCard2">
+                                <div class="galery_card-item" id="bigItem2">
+                                    <img src="img/galery-img3.png" alt="" class="galery_img">  
+                                    <a href="#!" class="galery_card-tab">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.68009 12.5421C9.68844 12.5421 10.5457 12.1893 11.2518 11.4837C11.9579 10.7781 12.3107 9.92092 12.3102 8.91203C12.3096 7.90314 11.9568 7.04617 11.2518 6.34113C10.5468 5.63609 9.68952 5.28304 8.68009 5.28196C7.67067 5.28089 6.8137 5.63394 6.1092 6.34113C5.4047 7.04832 5.05164 7.90529 5.05003 8.91203C5.04841 9.91876 5.40147 10.776 6.1092 11.4837C6.81693 12.1915 7.67389 12.5442 8.68009 12.5421ZM8.68009 10.9287C8.11542 10.9287 7.63813 10.7338 7.24823 10.3439C6.85834 9.95399 6.66339 9.4767 6.66339 8.91203C6.66339 8.34735 6.85834 7.87006 7.24823 7.48017C7.63813 7.09027 8.11542 6.89532 8.68009 6.89532C9.24477 6.89532 9.72206 7.09027 10.112 7.48017C10.5018 7.87006 10.6968 8.34735 10.6968 8.91203C10.6968 9.4767 10.5018 9.95399 10.112 10.3439C9.72206 10.7338 9.24477 10.9287 8.68009 10.9287ZM2.22664 15.3655C1.78297 15.3655 1.40329 15.2076 1.08761 14.892C0.771929 14.5763 0.613819 14.1963 0.613281 13.7521V4.07194C0.613281 3.62826 0.771391 3.24859 1.08761 2.93291C1.40383 2.61722 1.78351 2.45911 2.22664 2.45858H4.76769L6.26005 0.845215H11.1001L12.5925 2.45858H15.1335C15.5772 2.45858 15.9572 2.61669 16.2734 2.93291C16.5896 3.24912 16.7474 3.6288 16.7469 4.07194V13.7521C16.7469 14.1958 16.5891 14.5757 16.2734 14.892C15.9577 15.2082 15.5778 15.366 15.1335 15.3655H2.22664ZM2.22664 13.7521H15.1335V4.07194H11.8665L10.3943 2.45858H6.9659L5.4937 4.07194H2.22664V13.7521Z" fill="#002873"/>
+                                        </svg>
+                                        <span>Ура, лето!</span>
+                                    </a>
+                                </div>
+                                <div class="galery_card-items none-card">
+                                    <div class="galery_card-item" id="bigItem3">
+                                        <img src="img/galery-img4.png" alt="" class="galery_img">  
+                                        <a href="#!" class="galery_card-tab">
+                                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.68009 12.5421C9.68844 12.5421 10.5457 12.1893 11.2518 11.4837C11.9579 10.7781 12.3107 9.92092 12.3102 8.91203C12.3096 7.90314 11.9568 7.04617 11.2518 6.34113C10.5468 5.63609 9.68952 5.28304 8.68009 5.28196C7.67067 5.28089 6.8137 5.63394 6.1092 6.34113C5.4047 7.04832 5.05164 7.90529 5.05003 8.91203C5.04841 9.91876 5.40147 10.776 6.1092 11.4837C6.81693 12.1915 7.67389 12.5442 8.68009 12.5421ZM8.68009 10.9287C8.11542 10.9287 7.63813 10.7338 7.24823 10.3439C6.85834 9.95399 6.66339 9.4767 6.66339 8.91203C6.66339 8.34735 6.85834 7.87006 7.24823 7.48017C7.63813 7.09027 8.11542 6.89532 8.68009 6.89532C9.24477 6.89532 9.72206 7.09027 10.112 7.48017C10.5018 7.87006 10.6968 8.34735 10.6968 8.91203C10.6968 9.4767 10.5018 9.95399 10.112 10.3439C9.72206 10.7338 9.24477 10.9287 8.68009 10.9287ZM2.22664 15.3655C1.78297 15.3655 1.40329 15.2076 1.08761 14.892C0.771929 14.5763 0.613819 14.1963 0.613281 13.7521V4.07194C0.613281 3.62826 0.771391 3.24859 1.08761 2.93291C1.40383 2.61722 1.78351 2.45911 2.22664 2.45858H4.76769L6.26005 0.845215H11.1001L12.5925 2.45858H15.1335C15.5772 2.45858 15.9572 2.61669 16.2734 2.93291C16.5896 3.24912 16.7474 3.6288 16.7469 4.07194V13.7521C16.7469 14.1958 16.5891 14.5757 16.2734 14.892C15.9577 15.2082 15.5778 15.366 15.1335 15.3655H2.22664ZM2.22664 13.7521H15.1335V4.07194H11.8665L10.3943 2.45858H6.9659L5.4937 4.07194H2.22664V13.7521Z" fill="#002873"/>
+                                            </svg>
+                                            <span>Домашний уют</span>
+                                        </a>
+                                    </div>
+                                    <div class="galery_card-item" id="bigItem4">
+                                        <img src="img/galery-img5.png" alt="" class="galery_img">  
+                                        <a href="#!" class="galery_card-tab">
+                                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.68009 12.5421C9.68844 12.5421 10.5457 12.1893 11.2518 11.4837C11.9579 10.7781 12.3107 9.92092 12.3102 8.91203C12.3096 7.90314 11.9568 7.04617 11.2518 6.34113C10.5468 5.63609 9.68952 5.28304 8.68009 5.28196C7.67067 5.28089 6.8137 5.63394 6.1092 6.34113C5.4047 7.04832 5.05164 7.90529 5.05003 8.91203C5.04841 9.91876 5.40147 10.776 6.1092 11.4837C6.81693 12.1915 7.67389 12.5442 8.68009 12.5421ZM8.68009 10.9287C8.11542 10.9287 7.63813 10.7338 7.24823 10.3439C6.85834 9.95399 6.66339 9.4767 6.66339 8.91203C6.66339 8.34735 6.85834 7.87006 7.24823 7.48017C7.63813 7.09027 8.11542 6.89532 8.68009 6.89532C9.24477 6.89532 9.72206 7.09027 10.112 7.48017C10.5018 7.87006 10.6968 8.34735 10.6968 8.91203C10.6968 9.4767 10.5018 9.95399 10.112 10.3439C9.72206 10.7338 9.24477 10.9287 8.68009 10.9287ZM2.22664 15.3655C1.78297 15.3655 1.40329 15.2076 1.08761 14.892C0.771929 14.5763 0.613819 14.1963 0.613281 13.7521V4.07194C0.613281 3.62826 0.771391 3.24859 1.08761 2.93291C1.40383 2.61722 1.78351 2.45911 2.22664 2.45858H4.76769L6.26005 0.845215H11.1001L12.5925 2.45858H15.1335C15.5772 2.45858 15.9572 2.61669 16.2734 2.93291C16.5896 3.24912 16.7474 3.6288 16.7469 4.07194V13.7521C16.7469 14.1958 16.5891 14.5757 16.2734 14.892C15.9577 15.2082 15.5778 15.366 15.1335 15.3655H2.22664ZM2.22664 13.7521H15.1335V4.07194H11.8665L10.3943 2.45858H6.9659L5.4937 4.07194H2.22664V13.7521Z" fill="#002873"/>
+                                            </svg>
+                                            <span>Природа</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="galery_small-card none-card" id="smallCard2">
+                                <div class="galery_card-item" id="smallItem2">
+                                    <img src="img/galery-img6.png" alt="" class="galery_img">  
+                                    <a href="#!" class="galery_card-tab">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.68009 12.5421C9.68844 12.5421 10.5457 12.1893 11.2518 11.4837C11.9579 10.7781 12.3107 9.92092 12.3102 8.91203C12.3096 7.90314 11.9568 7.04617 11.2518 6.34113C10.5468 5.63609 9.68952 5.28304 8.68009 5.28196C7.67067 5.28089 6.8137 5.63394 6.1092 6.34113C5.4047 7.04832 5.05164 7.90529 5.05003 8.91203C5.04841 9.91876 5.40147 10.776 6.1092 11.4837C6.81693 12.1915 7.67389 12.5442 8.68009 12.5421ZM8.68009 10.9287C8.11542 10.9287 7.63813 10.7338 7.24823 10.3439C6.85834 9.95399 6.66339 9.4767 6.66339 8.91203C6.66339 8.34735 6.85834 7.87006 7.24823 7.48017C7.63813 7.09027 8.11542 6.89532 8.68009 6.89532C9.24477 6.89532 9.72206 7.09027 10.112 7.48017C10.5018 7.87006 10.6968 8.34735 10.6968 8.91203C10.6968 9.4767 10.5018 9.95399 10.112 10.3439C9.72206 10.7338 9.24477 10.9287 8.68009 10.9287ZM2.22664 15.3655C1.78297 15.3655 1.40329 15.2076 1.08761 14.892C0.771929 14.5763 0.613819 14.1963 0.613281 13.7521V4.07194C0.613281 3.62826 0.771391 3.24859 1.08761 2.93291C1.40383 2.61722 1.78351 2.45911 2.22664 2.45858H4.76769L6.26005 0.845215H11.1001L12.5925 2.45858H15.1335C15.5772 2.45858 15.9572 2.61669 16.2734 2.93291C16.5896 3.24912 16.7474 3.6288 16.7469 4.07194V13.7521C16.7469 14.1958 16.5891 14.5757 16.2734 14.892C15.9577 15.2082 15.5778 15.366 15.1335 15.3655H2.22664ZM2.22664 13.7521H15.1335V4.07194H11.8665L10.3943 2.45858H6.9659L5.4937 4.07194H2.22664V13.7521Z" fill="#002873"/>
+                                        </svg>
+                                        <span>Праздники</span>
+                                    </a>
+                                </div>
+                                <div class="galery_card-box none" style="text-align: center;">
+                                    <h3>Смотреть все <br>
+                                        3 456 <br>
+                                        фотографий</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#!" class="sec_link galery_more-btn" style="margin-bottom: 0;">Смотреть все 3 456 фотографий</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_cards-wrap">
+                <div class="container">
+                    <div class="home_cards">
+                        <div class="home_card">
+                            <img src="img/home_card-img1.svg" alt="">
+                            <div class="home_card-info">
+                                <h4>О керамике</h4>
+                                <p>Как создается наша керамика и как её использовать</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="home_card">
+                            <img src="img/home_card-img2.svg" alt="">
+                            <div class="home_card-info">
+                                <h4>О керамике</h4>
+                                <p>Как создается наша керамика и как её использовать</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="home_card">
+                            <img src="img/home_card-img3.svg" alt="">
+                            <div class="home_card-info">
+                                <h4>О керамике</h4>
+                                <p>Как создается наша керамика и как её использовать</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="home_card">
+                            <img src="img/home_card-img4.svg" alt="">
+                            <div class="home_card-info">
+                                <h4>О керамике</h4>
+                                <p>Как создается наша керамика и как её использовать</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="ftr_block">
+                    <div class="ftr_social">
+                        <a href="#!"><img src="img/logo-footer.svg" alt=""></a>
+                        <div class="ftr_social-links">
+                            <a href="#!">
+                                <img src="img/whatsapp.svg" alt="">
+                                <span>+7 (925) 294-91-85</span>
+                            </a>
+                            <a href="#!">
+                                <img src="img/telegram.svg" alt="">
+                                <span>Telegram</span>
+                            </a>
+                            <a href="#!">
+                                <img src="img/wk.svg" alt="">
+                                <span>ВКонтакте</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ftr_navs">
+                        <div class="ftr_nav">
+                            <b>О компании</b>
+                            <div class="ftr_link">
+                                <a href="#!">Правила продажи товаров</a>
+                                <a href="#!">Оптовикам</a>
+                                <a href="#!">Наши магазины</a>
+                                <a href="#!">Контакты</a>
+                            </div>
+                        </div>
+                        <div class="ftr_nav">
+                            <b>Каталог</b>
+                            <div class="ftr_links">
+                                <div class="ftr_link">
+                                    <a href="#!">Посуда</a>
+                                    <a href="#!">Дерево</a>
+                                    <a href="#!">Чай</a>
+                                    <a href="#!">Декор интерьера</a>
+                                </div>
+                                <div class="ftr_link">
+                                    <a href="#!">Открытки</a>
+                                    <a href="#!">Бижутерия</a>
+                                    <a href="#!">Текстиль</a>
+                                    <a href="#!">Упаковка</a>
+                                </div>
+                                <div class="ftr_link">
+                                    <a href="#!">Елочные игрушки</a>
+                                    <a href="#!">Подарочные сертификаты</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="copyright_block">
+                        <p>Птица Синица. © 2024</p>
+                        <img src="img/payment.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Modal basket -->
+    <div class="basket_modal-wrap">
+        <div class="basket_modal">
+            <b class="title">Ваша корзина</b>
+            <div class="basket_modal-cards">
+                <div class="basket_modal-card">
+                    <a href="#!"><img src="img/basket_modal-img1.png" alt="" class="basket_modal-img"></a>
+                    <div class="modal_info">
+                        <div class="modal_info-top">
+                            <div class="info_title">
+                                <a href="#!">Чайная пара большая</a>
+                                <span>2 400 р., 1 шт</span>
+                            </div>
+                            <div class="price_wrap">
+                                <b>2 400 р.</b>
+                                <span>2 600 р.</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal_info-bottom">
+                            <div class="calc_item">
+                                <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                <span class="calc_total">12</span>
+                                <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                            </div>
+                            <button class="backet_delete-btn modalCardDelete"><img src="img/delete.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket_modal-card">
+                    <a href="#!"><img src="img/basket_modal-img1.png" alt="" class="basket_modal-img"></a>
+                    <div class="modal_info">
+                        <div class="modal_info-top">
+                            <div class="info_title">
+                                <a href="#!">Чайная пара большая</a>
+                                <span>2 400 р., 1 шт</span>
+                            </div>
+                            <div class="price_wrap">
+                                <b>2 400 р.</b>
+                                <span>2 600 р.</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal_info-bottom">
+                            <div class="calc_item">
+                                <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                <span class="calc_total">12</span>
+                                <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                            </div>
+                            <button class="backet_delete-btn modalCardDelete"><img src="img/delete.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket_modal-card">
+                    <a href="#!"><img src="img/basket_modal-img1.png" alt="" class="basket_modal-img"></a>
+                    <div class="modal_info">
+                        <div class="modal_info-top">
+                            <div class="info_title">
+                                <a href="#!">Чайная пара большая</a>
+                                <span>2 400 р., 1 шт</span>
+                            </div>
+                            <div class="price_wrap">
+                                <b>2 400 р.</b>
+                                <span>2 600 р.</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal_info-bottom">
+                            <div class="calc_item">
+                                <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                <span class="calc_total">12</span>
+                                <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                            </div>
+                            <button class="backet_delete-btn modalCardDelete"><img src="img/delete.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket_modal-card">
+                    <a href="#!"><img src="img/basket_modal-img1.png" alt="" class="basket_modal-img"></a>
+                    <div class="modal_info">
+                        <div class="modal_info-top">
+                            <div class="info_title">
+                                <a href="#!">Чайная пара большая</a>
+                                <span>2 400 р., 1 шт</span>
+                            </div>
+                            <div class="price_wrap">
+                                <b>2 400 р.</b>
+                                <span>2 600 р.</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal_info-bottom">
+                            <div class="calc_item">
+                                <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                <span class="calc_total">12</span>
+                                <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                            </div>
+                            <button class="backet_delete-btn modalCardDelete"><img src="img/delete.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="basket_modal-bottom">
+                <div class="total">
+                    <b>Итого:</b>
+                    <span>6 450 р.</span>
+                </div>
+                <div class="basket_modal-links">
+                    <a href="#!">Продолжить покупки</a>
+                    <a href="#!">Перейти в корзину</a>
+                </div>
+            </div>
+        </div>
+        <div class="basket_modal-bg"></div>
+    </div>
+
+
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

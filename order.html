@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font Mulish -->
+    <link rel="stylesheet" href="font/mulish/stylesheet.css">
+    <!-- Font Popins -->
+    <link rel="stylesheet" href="font/poppins/stylesheet.css">
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="style/index.css">
+
+    <title>Title</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_block">
+                    <div class="header_top">
+                        <div class="boxs">
+                            <div class="box">
+                                <b>Москва</b>
+                                <div class="header_tel">
+                                    <a href="tel:+7 (495) 680-44-95">+7 (495) 680-44-95 /</a>
+                                    <a href="tel:+7 (495) 680-92-00">+7 (495) 680-92-00</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <b>Спб</b>
+                                <a href="tel:+7 (921) 384-97-75 ">+7 (921) 384-97-75 </a>
+                            </div>
+                        </div>
+
+                        <div class="header_social">
+                            <a href="#" class="social_link">
+                                <img src="img/whatsapp.svg" alt="">
+                                <span>+7 (925) 294-91-85</span>
+                            </a>
+                            <a href="#" class="social_link">
+                                <img src="img/telegram.svg" alt="">
+                            </a>
+                            <a href="#" class="social_link">
+                                <img src="img/wk.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="header_bottom">
+                        <a href="index.html" class="header_logo">
+                            <img src="img/logo.svg" alt="" class="logo1">
+                            <img src="img/logo-mob.svg" alt="" class="logo2">
+                        </a>
+                        <div class="header_search-wrap">
+                            <div class="header_search">
+                                <input type="search" id="searchInp" placeholder="Товар или артикул" class="search_inp">
+                                <label for="searchInp" class="search_btn"><img src="img/search.svg" alt=""></label>
+                            </div>
+
+                            <div class="search_modal">
+                                <div class="search_modal-boxs">
+                                    <div class="search_modal-box">
+                                        <img src="img/search-modal-img1.png" alt="" class="search_modal-img">
+                                        <div class="search_modal-info">
+                                            <a href="#!">Чашка с блюдцем BL02</a>
+                                            <div class="price">
+                                                <b>890 р.</b>
+                                                <span>1 199 р.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search_modal-box">
+                                        <img src="img/search-modal-img2.png" alt="" class="search_modal-img">
+                                        <div class="search_modal-info">
+                                            <a href="#!">Новогодняя игрушка чашка с блюдцем D076 Гирлянда</a>
+                                            <div class="price">
+                                                <b>1 100 р.</b>
+                                                <span>1 230 р.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search_modal-box">
+                                        <img src="img/search-modal-img3.png" alt="" class="search_modal-img">
+                                        <div class="search_modal-info">
+                                            <a href="#!">Чайная пара большая F036 Заплатки</a>
+                                            <div class="price">
+                                                <b>1 100 р.</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="search_modal-box">
+                                        <img src="img/search-modal-img1.png" alt="" class="search_modal-img">
+                                        <div class="search_modal-info">
+                                            <a href="#!">Чашка с блюдцем BL02</a>
+                                            <div class="price">
+                                                <b>890 р.</b>
+                                                <span>1 199 р.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="search_category">
+                                    <b>Категории</b>
+                                    <div class="search_category-links">
+                                        <a href="#!">Чайные и кофейные пары</a>
+                                        <a href="#!">Чайные и кофейные пары</a>
+                                        <a href="#!">Посуда</a>
+                                        <a href="#!">Название категории</a>
+                                        <a href="#!">Пасхальные яйца</a>
+                                        <a href="#!">Чайные пары</a>
+                                        <a href="#!">Чайные и кофейные пары</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_tabs">
+                            <a href="#!" class="header_tab">
+                                <div class="item_img">
+                                    <img src="img/heart.svg" alt="">
+                                    <b class="red">1</b>
+                                </div>
+                                <span>ИЗБРАННОЕ</span>
+                            </a>
+                            <a href="#!" class="header_tab">
+                                <div class="item_img">
+                                    <img src="img/user.svg" alt="">
+                                </div>
+                                <span>ПРОФИЛЬ</span>
+                            </a>
+                            <a href="#!" class="header_tab basketModalOpen">
+                                <div class="item_img">
+                                    <img src="img/cart.svg" alt="">
+                                    <b class="blue">3</b>
+                                </div>
+                                <span>КОРЗИНА <img src="img/arrow-down2.svg" alt=""></span>
+                            </a>
+                        </div>
+                        <button class="header_bars">
+                            <img src="img/hamburger.svg" alt="" class="bars-menu">
+                            <img src="img/close-menu.svg" alt="" class="close-menu">
+                        </button>
+                    </div>
+                    <div class="header_nav">
+                        <button class="dropdown-button" id="catalogButton">Каталог<img src="img/arrow-down.svg" alt=""></button>
+
+                            <div class="dropdown-content" id="menu">
+                                <div class="all_categrys">
+                                    <div class="first_menu">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Посуда <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Дерево <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Чай <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a class="active" href="#">Декор интерьера <img src="img/menu2.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Открытки <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Бижутерия <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Текстиль <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Упаковка <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Елочные игрушки <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Подарочные сертификаты <img src="img/menu1.svg" alt=""></a>
+                                            </li>
+                                        </ul>
+                                   </div>
+                                   <div class="second_menus">
+                                        <div class="items">
+                                            <ul>
+                                                <li><a href="#">Вазы</a></li>
+                                                <li><a href="#">Колокольчики</a></li>
+                                                <li><a href="#">Лейки и цветочные горшки</a></li>
+                                                <li><a href="#">Магниты на холодильник</a></li>
+                                                <li><a href="#">Наперстки и пуговицы</a></li>
+                                                <li><a href="#">Пасхальные яйца</a></li>
+                                                <li><a href="#">Предметы для ванной комнаты</a></li>
+                                                <li><a href="#">Магниты на холодильник</a></li>
+                                                <li><a href="#">Наперстки и пуговицы</a></li>
+                                                <li><a href="#">Пасхальные яйца</a></li>
+                                                <li><a href="#">Предметы для ванной комнаты</a></li>
+                                                <li><a href="#">Светильники</a></li>
+                                                <li><a href="#">Фигурки керамические</a></li>
+                                                <li><a href="#">Фурнитура</a></li>
+                                                <li><a href="#">Свечи</a></li>
+                                                <li><a href="#">Часы</a></li>
+                                                <li><a href="#">Интерьерные подвески</a></li>
+                                                <li><a href="#">Новинки!</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="items">
+                                            <ul>
+                                                <li><a href="#">Вазы</a></li>
+                                                <li><a href="#">Колокольчики</a></li>
+                                                <li><a href="#">Лейки и цветочные горшки</a></li>
+                                                <li><a href="#">Магниты на холодильник</a></li>
+                                                <li><a href="#">Наперстки и пуговицы</a></li>
+                                                <li><a href="#">Пасхальные яйца</a></li>
+                                                <li><a href="#">Предметы для ванной комнаты</a></li>
+                                                <li><a href="#">Светильники</a></li>
+                                                <li><a href="#">Фигурки керамические</a></li>
+                                                <li><a href="#">Фурнитура</a></li>
+                                                <li><a href="#">Свечи</a></li>
+                                                <li><a href="#">Часы</a></li>
+                                                <li><a class="green_word" href="#">Новинки!</a></li>
+                                                <p>Распродажа 20-30-40%</p>
+                                                
+                                            </ul>
+                                        </div>
+                                   </div>
+                                   <div class="recommend_group">
+                                        <div class="title">
+                                            <h2>Мы рекомендуем:</h2>
+                                        </div>
+                                        <div class="itemss">
+                                            <div class="item1">
+                                                <div class="ite">
+                                                    <img src="img/rec1.png" alt="">
+                                                    <p>Пасха в доме</p>
+                                                </div>
+                                                <div class="ite">
+                                                    <img src="img/rec2.png" alt="">
+                                                    <p>Солнечный паттерн</p>
+                                                </div>
+                                            </div>
+                                            <div class="item1">
+                                                <div class="ite">
+                                                    <img src="img/rec3.png" alt="">
+                                                    <p>Яблочный спас</p>
+                                                </div>
+                                                <div class="ite">
+                                                    <img src="img/rec4.png" alt="">
+                                                    <p>Планы на лето</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                   </div>
+                                   <div class="secret_btns">
+                                        <button class="close-button" id="closeButton">скрыть <img src="img/x.svg" alt=""></button>
+                                   </div>
+                                </div>
+                               
+                            </div>
+                        <a href="#" class="nav_link">Орнаменты <img src="img/arrow-down.svg" alt=""></a>
+                        <button class="dropdown-button" id="catalogButton1">О керамике<img src="img/arrow-down.svg" alt=""></button>
+
+                        <div class="dropdown-content" id="menu1">
+                            <div class="all_categrys">
+                                <div class="first_menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Использование керамики <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Производство <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">История <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                       
+                                        <li>
+                                            <a href="#">О Птице Синице <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отзывы <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Опт <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        
+                                    </ul>
+                               </div>
+                            
+                               <div class="recommend_group recommend_group2">
+                                    <div class="title">
+                                        <h2>Мы рекомендуем:</h2>
+                                    </div>
+                                    <div class="itemss">
+                                        <div class="item1">
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+                               </div>
+                               <div class="secret_btns">
+                                    <button class="close-button1" id="closeButton1">скрыть <img src="img/x.svg" alt=""></button>
+                               </div>
+                            </div>
+                           
+                        </div>
+                        <a href="#" class="nav_link">Доставка и оплата <img src="img/arrow-down.svg" alt=""></a>
+                        <a href="#" class="nav_link">Контакты</a>
+                        <a href="#" class="nav_link">Подарочные карты</a>
+                        <a href="#" class="nav_link">Новый год</a>
+                        <a href="#" class="nav_link red">Акция</a>
+                        <a href="#" class="nav_link green">Новинки</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header_mob">
+                <div class="header_tabs">
+                    <a href="#!" class="header_tab">
+                        <div class="item_img">
+                            <img src="img/heart.svg" alt="">
+                            <b class="red">1</b>
+                        </div>
+                        <span>ИЗБРАННОЕ</span>
+                    </a>
+                    <a href="#!" class="header_tab">
+                        <div class="item_img">
+                            <img src="img/user.svg" alt="">
+                        </div>
+                        <span>ПРОФИЛЬ</span>
+                    </a>
+                    <a href="#!" class="header_tab basketModalOpen">
+                        <div class="item_img">
+                            <img src="img/cart.svg" alt="">
+                            <b class="blue">3</b>
+                        </div>
+                        <span>КОРЗИНА</span>
+                    </a>
+                </div>
+
+                <div class="header_mob-block">
+                    <div class="header_nav">
+                        <button class="dropdown-button" id="catalogButton3">Каталог<img src="img/arrow-down.svg" alt=""></button>
+
+                        <div class="dropdown-content" id="menu3">
+                            <div class="all_categrys">
+                                <div class="first_menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Посуда <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Дерево <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Чай <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a class="active" href="#">Декор интерьера <img src="img/menu2.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Открытки <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Бижутерия <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Текстиль <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Упаковка <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Елочные игрушки <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Подарочные сертификаты <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                    </ul>
+                               </div>
+                               <div class="second_menus">
+                                    <div class="items">
+                                        <ul>
+                                            <li><a href="#">Вазы</a></li>
+                                            <li><a href="#">Колокольчики</a></li>
+                                            <li><a href="#">Лейки и цветочные горшки</a></li>
+                                            <li><a href="#">Магниты на холодильник</a></li>
+                                            <li><a href="#">Наперстки и пуговицы</a></li>
+                                            <li><a href="#">Пасхальные яйца</a></li>
+                                            <li><a href="#">Предметы для ванной комнаты</a></li>
+                                            <li><a href="#">Магниты на холодильник</a></li>
+                                            <li><a href="#">Наперстки и пуговицы</a></li>
+                                            <li><a href="#">Пасхальные яйца</a></li>
+                                            <li><a href="#">Предметы для ванной комнаты</a></li>
+                                            <li><a href="#">Светильники</a></li>
+                                            <li><a href="#">Фигурки керамические</a></li>
+                                            <li><a href="#">Фурнитура</a></li>
+                                            <li><a href="#">Свечи</a></li>
+                                            <li><a href="#">Часы</a></li>
+                                            <li><a href="#">Интерьерные подвески</a></li>
+                                            <li><a href="#">Новинки!</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="items">
+                                        <ul>
+                                            <li><a href="#">Вазы</a></li>
+                                            <li><a href="#">Колокольчики</a></li>
+                                            <li><a href="#">Лейки и цветочные горшки</a></li>
+                                            <li><a href="#">Магниты на холодильник</a></li>
+                                            <li><a href="#">Наперстки и пуговицы</a></li>
+                                            <li><a href="#">Пасхальные яйца</a></li>
+                                            <li><a href="#">Предметы для ванной комнаты</a></li>
+                                            <li><a href="#">Светильники</a></li>
+                                            <li><a href="#">Фигурки керамические</a></li>
+                                            <li><a href="#">Фурнитура</a></li>
+                                            <li><a href="#">Свечи</a></li>
+                                            <li><a href="#">Часы</a></li>
+                                            <li><a class="green_word" href="#">Новинки!</a></li>
+                                            <p>Распродажа 20-30-40%</p>
+                                            
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="recommend_group">
+                                    <div class="title">
+                                        <h2>Мы рекомендуем:</h2>
+                                    </div>
+                                    <div class="itemss">
+                                        <div class="item1">
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                        </div>
+                                        <div class="item1">
+                                            <div class="ite">
+                                                <img src="img/rec3.png" alt="">
+                                                <p>Яблочный спас</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec4.png" alt="">
+                                                <p>Планы на лето</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="secret_btns">
+                                    <button class="close-button3" id="closeButton3">скрыть <img src="img/x.svg" alt=""></button>
+                               </div>
+                            </div>
+                           
+                        </div>
+                        <a href="#" class="nav_link">Орнаменты <img src="img/arrow-down.svg" alt=""></a>
+                        <button class="dropdown-button" id="catalogButton4">О керамике<img src="img/arrow-down.svg" alt=""></button>
+
+                        <div class="dropdown-content dropdown-content2" id="menu4">
+                            <div class="all_categrys">
+                                <div class="first_menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Использование керамики <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Производство <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">История <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                       
+                                        <li>
+                                            <a href="#">О Птице Синице <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Отзывы <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Опт <img src="img/menu1.svg" alt=""></a>
+                                        </li>
+                                        
+                                    </ul>
+                               </div>
+                            
+                               <div class="recommend_group recommend_group2">
+                                    <div class="title">
+                                        <h2>Мы рекомендуем:</h2>
+                                    </div>
+                                    <div class="itemss">
+                                        <div class="item1">
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec1.png" alt="">
+                                                <p>Пасха в доме</p>
+                                            </div>
+                                            <div class="ite">
+                                                <img src="img/rec2.png" alt="">
+                                                <p>Солнечный паттерн</p>
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+                               </div>
+                               <div class="secret_btns">
+                                    <button class="close-button4" id="closeButton4">скрыть <img src="img/x.svg" alt=""></button>
+                               </div>
+                            </div>
+                           
+                        </div>
+                        <a href="#" class="nav_link">Доставка и оплата <img src="img/arrow-down.svg" alt=""></a>
+                        <a href="#" class="nav_link">Контакты</a>
+                        <a href="#" class="nav_link">Подарочные карты</a>
+                        <a href="#" class="nav_link">Новый год</a>
+                        <a href="#" class="nav_link red">Акция</a>
+                        <a href="#" class="nav_link green">Новинки</a>
+                    </div>
+                    
+                    <div class="boxs">
+                        <div class="box">
+                            <b>Москва</b>
+                            <div class="header_tel">
+                                <a href="tel:+7 (495) 680-44-95">+7 (495) 680-44-95 </a>
+                                <a href="tel:+7 (495) 680-92-00">+7 (495) 680-92-00</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <b>Спб</b>
+                            <a href="tel:+7 (921) 384-97-75 ">+7 (921) 384-97-75 </a>
+                        </div>
+                    </div>
+    
+                    <div class="header_mob-social">
+                        <a href="#!"><img src="img/whatsapp-big.svg" alt=""></a>
+                        <a href="#!"><img src="img/telegram-big.svg" alt=""></a>
+                        <a href="#!"><img src="img/wk-big.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="breadcrumb">
+                <div class="container">
+                    <div class="breadcrumb-items">
+                        <a href="./home.html" class="breadcrumb-link">
+                            <span>Мой кабинет</span>
+                        </a>
+                        <img src="img/breadcrumb-arrow.svg" alt="" class="breadcrumb-arrow">
+                        <a href="#!" class="breadcrumb-link">
+                            <span>Мои заказы</span>
+                        </a>
+                        <img src="img/breadcrumb-arrow.svg" alt="" class="breadcrumb-arrow">
+                        <span class="breadcrumb-span">Оформить заказ</span>
+                    </div>
+                </div>
+            </div>
+
+            <section class="order">
+                <div class="container">
+                    <h2 class="order_title">Оформить заказ</h2>
+                    <div class="block">
+                        <div class="left">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <img src="img/order-boxIcon1.svg" alt="">
+                                            Товары в заказе
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div class="order_products">
+                                                <div class="backet_cards">
+                                                    <div class="backet_card">
+                                                        <a href="#!" class="backet_img">
+                                                            <img src="img/backet-img.png" alt="">
+                                                        </a>
+                                                        <div class="info">
+                                                            <div class="texts">
+                                                                <b>Чайная пара большая</b>
+                                                                <span class="spn1">2 400 р., 1 шт</span>
+                                                                <span class="spn2">4 1000 р.</span>
+                                                                <a href="#!">Дополнительные свойства</a>
+                                                            </div>
+                                                            <div class="card_tabs">
+                                                                <div class="calc_item">
+                                                                    <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                                                    <span class="calc_total">4</span>
+                                                                    <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                                                                </div>
+                                                                <div class="price">
+                                                                    <span class="spn1">9 200 р.</span>
+                                                                    <span class="spn2">12 600 р.</span>
+                                                                </div>
+                                                                <div class="backet_delete">
+                                                                    <button class="backet_delete-btn"><img src="img/delete.svg" alt=""></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet_card">
+                                                        <a href="#!" class="backet_img">
+                                                            <img src="img/backet-img2.png" alt="">
+                                                        </a>
+                                                        <div class="info">
+                                                            <div class="texts">
+                                                                <b>Чайная пара большая</b>
+                                                                <span class="spn1">2 400 р., 1 шт</span>
+                                                                <span class="spn2">4 1000 р.</span>
+                                                                <a href="#!">Дополнительные свойства</a>
+                                                            </div>
+                                                            <div class="card_tabs">
+                                                                <div class="calc_item">
+                                                                    <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                                                    <span class="calc_total">4</span>
+                                                                    <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                                                                </div>
+                                                                <div class="price">
+                                                                    <span class="spn1">9 200 р.</span>
+                                                                    <span class="spn2">12 600 р.</span>
+                                                                </div>
+                                                                <div class="backet_delete">
+                                                                    <button class="backet_delete-btn"><img src="img/delete.svg" alt=""></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="backet_card">
+                                                        <a href="#!" class="backet_img">
+                                                            <img src="img/backet-img3.png" alt="">
+                                                        </a>
+                                                        <div class="info">
+                                                            <div class="texts">
+                                                                <b>Чайная пара большая</b>
+                                                                <span class="spn1">2 400 р., 1 шт</span>
+                                                                <span class="spn2">4 1000 р.</span>
+                                                                <a href="#!">Дополнительные свойства</a>
+                                                            </div>
+                                                            <div class="card_tabs">
+                                                                <div class="calc_item">
+                                                                    <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                                                    <span class="calc_total">4</span>
+                                                                    <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                                                                </div>
+                                                                <div class="price">
+                                                                    <span class="spn1">9 200 р.</span>
+                                                                    <span class="spn2">12 600 р.</span>
+                                                                </div>
+                                                                <div class="backet_delete">
+                                                                    <button class="backet_delete-btn"><img src="img/delete.svg" alt=""></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="order_bottom">
+                                                    <div class="backet_promo">
+                                                        <span>Введите промокод:</span>
+                                                        <div class="promo">
+                                                            <input type="text" placeholder="Промокод">
+                                                            <button><img src="img/arrow-right2.svg" alt=""></button>
+                                                        </div>
+                                                    </div>
+                                                    <button class="order_btn">Далее</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            <img src="img/order-person.svg" alt="">
+                                            Покупатель
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <form action="" class="order_form">
+                                                <div class="inp_group">
+                                                    <label for="name">* Ф.И.О.</label>
+                                                    <input type="text" name="name" id="name" placeholder="Оксана Плужник" required>
+                                                </div>
+                                                <div class="inp_group">
+                                                    <label for="email">* E-Mail</label>
+                                                    <input type="email" name="email" id="email" placeholder="info@mail.ru" required>
+                                                </div>
+                                                <div class="inp_group">
+                                                    <label for="phone">* Телефон</label>
+                                                    <input type="tel" name="phone" id="phone" placeholder="+7 (905) 234-21-21" required>
+                                                </div>
+                                                <div class="inp_group">
+                                                    <label for="comment">Комментарии к заказу:</label>
+                                                    <textarea id="comment" placeholder="Крмментарий"></textarea>
+                                                </div>
+                                                
+                                                <div class="order_bottom">
+                                                    <a href="#!" class="back_link">
+                                                        <div class="arrow-icon">
+                                                            <img src="img/arrow-right2.svg" alt="">
+                                                        </div>
+                                                        Назад
+                                                    </a>
+                                                    <button class="order_btn">Далее</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            <img src="img/order-boxIcon.svg" alt="">
+                                            Доставка: регион
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <form action="" class="order_form">
+                                                <div class="inp_group">
+                                                    <label for="city">* Город</label>
+                                                    <div class="inp_wrap">
+                                                        <img src="img/search.svg" alt="">
+                                                        <input type="search" name="city" id="city" placeholder="Москва, Московская область" required style="padding-left: 46px;">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="order_bottom">
+                                                    <a href="#!" class="back_link">
+                                                        <div class="arrow-icon">
+                                                            <img src="img/arrow-right2.svg" alt="">
+                                                        </div>
+                                                        Назад
+                                                    </a>
+                                                    <button class="order_btn">Далее</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                            <img src="img/order-delivery.svg" alt="">
+                                            Способ доставки
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <form action="" class="order_form">
+                                                <div class="check_items">
+                                                    <label for="check1" class="check_item">
+                                                        <input type="checkbox" name="check1" id="check1">
+                                                        <img src="img/checkItem-icon1.svg" alt="">
+                                                        <p>Самовывоз из магазина <br> (Москва, Астраханский переулок, д. 1/15)</p>
+                                                    </label>
+                                                    <label for="check2" class="check_item">
+                                                        <input type="checkbox" name="check2" id="check2">
+                                                        <img src="img/checkItem-icon2.svg" alt="">
+                                                        <p>Курьерская доставка Птица Синица</p>
+                                                    </label>
+                                                </div>
+
+                                                <div class="inp_group">
+                                                    <label for="city">* Адрес доставки</label>
+                                                    <div class="inp_wrap">
+                                                        <img src="img/search.svg" alt="">
+                                                        <input type="search" name="city" id="city" placeholder="Москва, Московская область" required style="padding-left: 46px;">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="order_bottom">
+                                                    <a href="#!" class="back_link">
+                                                        <div class="arrow-icon">
+                                                            <img src="img/arrow-right2.svg" alt="">
+                                                        </div>
+                                                        Назад
+                                                    </a>
+                                                    <button class="order_btn">Далее</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                            <img src="img/payment2.svg" alt="">
+                                            Оплата
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="check_bottom">
+                                <input type="checkbox" id="check3">
+                                <label for="check3">Я согласен на <a href="#!">обработку персональных данных</a> и ознакомился с <a href="#!">правилами</a>  * </label>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <div class="item">
+                                <div class="boxs">
+                                    <div class="box">
+                                        <b>Товаров на сумму:</b>
+                                        <b>23 945 руб.</b>
+                                    </div>
+                                    <div class="box">
+                                        <span>Скидка:</span>
+                                        <span style="text-decoration: line-through;">34 567 руб</span>
+                                    </div>
+                                    <div class="box">
+                                        <span>Общий вес:</span>
+                                        <span>12, 230 кг</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="promocode">
+                                        <input type="text" placeholder="Введите промокод">
+                                        <button>Применить</button>
+                                    </div>
+                                    <b>BOLKALOVE <img src="img/mini-x.svg" alt=""></b>
+                                    <p>Если у вас есть второй промокод, введите его в поле промокода после применения первого. Итоговые скидки отобразятся на странице оформления заказа</p>
+                                </div>
+                                <div class="total">
+                                    <h4>Итого:</h4>
+                                    <h3>25 450 р.</h3>
+                                </div>
+                            </div>
+
+                            <div class="order_btns">
+                                <button class="order_btn"><img src="img/orderBtn-icon1.svg" alt=""> О доставке и оплате</button>
+                                <button class="order_btn"><img src="img/orderBtn-icon2.svg" alt=""> Упаковка посылок</button>
+                                <button class="order_btn"><img src="img/orderBtn-icon3.svg" alt=""> Добавить открытку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="banner_slider" style="padding-bottom: 0;">
+                <img src="img/bg3.png" alt="" class="bg3">
+                <div class="container">
+                    <div class="swiper bannerSlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="banner_block">
+                                    <img src="img/banner_slider1.jpg" alt="" class="banner_img">
+                                    <div class="banner_info">
+                                        <p>100% качество изделий</p>
+                                        <h1>Заголовок акции или специального предложения</h1>
+                                        <a href="#!">посмотреть предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner_block">
+                                    <img src="img/banner_slider2.png" alt="" class="banner_img">
+                                    <div class="banner_info">
+                                        <p>100% качество изделий</p>
+                                        <h1>Баннер с фруктами - это всегда хорошо</h1>
+                                        <a href="#!">посмотреть предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner_block">
+                                    <img src="img/banner_slider1.jpg" alt="" class="banner_img">
+                                    <div class="banner_info">
+                                        <p>100% качество изделий</p>
+                                        <h1>Заголовок акции или специального предложения</h1>
+                                        <a href="#!">посмотреть предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner_block">
+                                    <img src="img/banner_slider2.png" alt="" class="banner_img">
+                                    <div class="banner_info">
+                                        <p>100% качество изделий</p>
+                                        <h1>Заголовок акции или специального предложения</h1>
+                                        <a href="#!">посмотреть предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner_block">
+                                    <img src="img/banner_slider1.jpg" alt="" class="banner_img">
+                                    <div class="banner_info">
+                                        <p>100% качество изделий</p>
+                                        <h1>Заголовок акции или специального предложения</h1>
+                                        <a href="#!">посмотреть предложение</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="new product_new" style="background: none;">
+                <div class="container">
+                    <div class="new_block">
+                        <div class="new_title">
+                            <h1 class="sec_title">Вы недавно смотрели
+                            </h1>
+                            <a href="#!" class="sec_link">всё просмотренное</a>
+                        </div>
+
+                        <div class="new_slider new_slider2">
+                            <div class="swiper newSlider2 swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                <div class="swiper-wrapper" id="swiper-wrapper-8aca8e8cd8c72e74" aria-live="polite">
+                                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" data-swiper-slide-index="0" style="width: 312.25px; margin-right: 20px;">
+                                        <div class="new_card">
+                                            <a href="#!" class="new_card-photo">
+                                                <img src="img/new_slider-img5.png" alt="">
+                                                <b class="red">15% sale</b>
+                                            </a>
+                                            <div class="card_info-wrap">
+                                                <div class="new_card-info">
+                                                    <div class="new_info-box">
+                                                        <b>Кувшин</b>
+                                                        <p>Орнамент Р319 Петухи синие </p>
+                                                    </div>
+                                                    <div class="new_info-price">
+                                                        <b>3 990 р.</b>
+                                                        <span>4 1000 р.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 6" data-swiper-slide-index="1" style="width: 312.25px; margin-right: 20px;">
+                                        <div class="new_card">
+                                            <a href="#!" class="new_card-photo">
+                                                <img src="img/new_slider-img2.png" alt="">
+                                                <b class="green">NEW</b>
+                                            </a>
+                                            <div class="card_info-wrap">
+                                                <div class="new_card-info">
+                                                    <div class="new_info-box">
+                                                        <b>Блюдо M173 тарелка для завтрака</b>
+                                                        <p>Орнамент IM03</p>
+                                                    </div>
+                                                    <div class="new_info-price">
+                                                        <b>3 990 р.</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="3 / 6" data-swiper-slide-index="2" style="width: 312.25px; margin-right: 20px;">
+                                        <div class="new_card">
+                                            <a href="#!" class="new_card-photo">
+                                                <img src="img/new_slider-img1.png" alt="">
+                                            </a>
+                                            <div class="card_info-wrap">
+                                                <div class="new_card-info">
+                                                    <div class="new_info-box">
+                                                        <b>Блюдо M173</b>
+                                                        <p>Орнамент IM03</p>
+                                                    </div>
+                                                    <div class="new_info-price">
+                                                        <b>3 990 р.</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="4 / 6" data-swiper-slide-index="3" style="width: 312.25px; margin-right: 20px;">
+                                        <div class="new_card">
+                                            <a href="#!" class="new_card-photo">
+                                                <img src="img/new_slider-img6.png" alt="">
+                                                <b class="green">NEW</b>
+                                            </a>
+                                            <div class="card_info-wrap">
+                                                <div class="new_card-info">
+                                                    <div class="new_info-box">
+                                                        <b>Блюдо M173</b>
+                                                        <p>Орнамент IM03</p>
+                                                    </div>
+                                                    <div class="new_info-price">
+                                                        <b>3 990 р.</b>
+                                                        <span>4 1000 р.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="5 / 6" data-swiper-slide-index="4" style="width: 312.25px; margin-right: 20px;">
+                                        <div class="new_card">
+                                            <a href="#!" class="new_card-photo">
+                                                <img src="img/new_slider-img3.png" alt="">
+                                                <b class="red">15% sale</b>
+                                            </a>
+                                            <div class="card_info-wrap">
+                                                <div class="new_card-info">
+                                                    <div class="new_info-box">
+                                                        <b>Кувшин</b>
+                                                        <p>Орнамент Р319 Петухи синие </p>
+                                                    </div>
+                                                    <div class="new_info-price">
+                                                        <b>3 990 р.</b>
+                                                        <span>4 1000 р.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="6 / 6" data-swiper-slide-index="5" style="width: 312.25px; margin-right: 20px;">
+                                        <div class="new_card">
+                                            <a href="#!" class="new_card-photo">
+                                                <img src="img/new_slider-img4.png" alt="">
+                                                <b class="green">NEW</b>
+                                            </a>
+                                            <div class="card_info-wrap">
+                                                <div class="new_card-info">
+                                                    <div class="new_info-box">
+                                                        <b>Блюдо M173 тарелка для завтрака</b>
+                                                        <p>Орнамент IM03</p>
+                                                    </div>
+                                                    <div class="new_info-price">
+                                                        <b>3 990 р.</b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-8aca8e8cd8c72e74"></div>
+                            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-8aca8e8cd8c72e74"></div>
+                        </div>
+
+                        <a href="#!" class="sec_link new_more-mob">все новинки</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="container">
+                    <div class="home_cards">
+                        <div class="home_card">
+                            <img src="img/home_card-img1.svg" alt="">
+                            <div class="home_card-info">
+                                <h4>О керамике</h4>
+                                <p>Как создается наша керамика и как её использовать</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="home_card">
+                            <img src="img/home_card-img2.svg" alt="">
+                            <div class="home_card-info">
+                                <h4>Доставка и оплата</h4>
+                                <p>Информация по доставке  и получению заказов</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="home_card">
+                            <img src="img/home_card-img3.svg" alt="">
+                            <div class="home_card-info">
+                                <h4>Наши магазины</h4>
+                                <p>Способы связи, адреса магазинов и офисов</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="home_card">
+                            <img src="img/home_card-img4.svg" alt="">
+                            <div class="home_card-info">
+                                <h4>Подарочные карты</h4>
+                                <p>Пластиковые карты- сертификаты номиналом 2000, 3000 и 5000 р.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/bg1.png" alt="" class="bg1">
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="ftr_block">
+                    <div class="ftr_social">
+                        <a href="#!"><img src="img/logo-footer.svg" alt=""></a>
+                        <div class="ftr_social-links">
+                            <a href="#!">
+                                <img src="img/whatsapp.svg" alt="">
+                                <span>+7 (925) 294-91-85</span>
+                            </a>
+                            <a href="#!">
+                                <img src="img/telegram.svg" alt="">
+                                <span>Telegram</span>
+                            </a>
+                            <a href="#!">
+                                <img src="img/wk.svg" alt="">
+                                <span>ВКонтакте</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ftr_navs">
+                        <div class="ftr_nav">
+                            <b>О компании</b>
+                            <div class="ftr_link">
+                                <a href="#!">Правила продажи товаров</a>
+                                <a href="#!">Оптовикам</a>
+                                <a href="#!">Наши магазины</a>
+                                <a href="#!">Контакты</a>
+                            </div>
+                        </div>
+                        <div class="ftr_nav">
+                            <b>Каталог</b>
+                            <div class="ftr_links">
+                                <div class="ftr_link">
+                                    <a href="#!">Посуда</a>
+                                    <a href="#!">Дерево</a>
+                                    <a href="#!">Чай</a>
+                                    <a href="#!">Декор интерьера</a>
+                                </div>
+                                <div class="ftr_link">
+                                    <a href="#!">Открытки</a>
+                                    <a href="#!">Бижутерия</a>
+                                    <a href="#!">Текстиль</a>
+                                    <a href="#!">Упаковка</a>
+                                </div>
+                                <div class="ftr_link">
+                                    <a href="#!">Елочные игрушки</a>
+                                    <a href="#!">Подарочные сертификаты</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="copyright_block">
+                        <p>Птица Синица. © 2024</p>
+                        <img src="img/payment.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal basket -->
+    <div class="basket_modal-wrap">
+        <div class="basket_modal">
+            <b class="title">Ваша корзина</b>
+            <div class="basket_modal-cards">
+                <div class="basket_modal-card">
+                    <a href="#!"><img src="img/basket_modal-img1.png" alt="" class="basket_modal-img"></a>
+                    <div class="modal_info">
+                        <div class="modal_info-top">
+                            <div class="info_title">
+                                <a href="#!">Чайная пара большая</a>
+                                <span>2 400 р., 1 шт</span>
+                            </div>
+                            <div class="price_wrap">
+                                <b>2 400 р.</b>
+                                <span>2 600 р.</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal_info-bottom">
+                            <div class="calc_item">
+                                <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                <span class="calc_total">12</span>
+                                <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                            </div>
+                            <button class="backet_delete-btn modalCardDelete"><img src="img/delete.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket_modal-card">
+                    <a href="#!"><img src="img/basket_modal-img1.png" alt="" class="basket_modal-img"></a>
+                    <div class="modal_info">
+                        <div class="modal_info-top">
+                            <div class="info_title">
+                                <a href="#!">Чайная пара большая</a>
+                                <span>2 400 р., 1 шт</span>
+                            </div>
+                            <div class="price_wrap">
+                                <b>2 400 р.</b>
+                                <span>2 600 р.</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal_info-bottom">
+                            <div class="calc_item">
+                                <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                <span class="calc_total">12</span>
+                                <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                            </div>
+                            <button class="backet_delete-btn modalCardDelete"><img src="img/delete.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket_modal-card">
+                    <a href="#!"><img src="img/basket_modal-img1.png" alt="" class="basket_modal-img"></a>
+                    <div class="modal_info">
+                        <div class="modal_info-top">
+                            <div class="info_title">
+                                <a href="#!">Чайная пара большая</a>
+                                <span>2 400 р., 1 шт</span>
+                            </div>
+                            <div class="price_wrap">
+                                <b>2 400 р.</b>
+                                <span>2 600 р.</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal_info-bottom">
+                            <div class="calc_item">
+                                <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                <span class="calc_total">12</span>
+                                <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                            </div>
+                            <button class="backet_delete-btn modalCardDelete"><img src="img/delete.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket_modal-card">
+                    <a href="#!"><img src="img/basket_modal-img1.png" alt="" class="basket_modal-img"></a>
+                    <div class="modal_info">
+                        <div class="modal_info-top">
+                            <div class="info_title">
+                                <a href="#!">Чайная пара большая</a>
+                                <span>2 400 р., 1 шт</span>
+                            </div>
+                            <div class="price_wrap">
+                                <b>2 400 р.</b>
+                                <span>2 600 р.</span>
+                            </div>
+                        </div>
+    
+                        <div class="modal_info-bottom">
+                            <div class="calc_item">
+                                <button class="minus-btn"><img src="img/minus.svg" alt=""></button>
+                                <span class="calc_total">12</span>
+                                <button class="plus-btn"><img src="img/plus.svg" alt=""></button>
+                            </div>
+                            <button class="backet_delete-btn modalCardDelete"><img src="img/delete.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="basket_modal-bottom">
+                <div class="total">
+                    <b>Итого:</b>
+                    <span>6 450 р.</span>
+                </div>
+                <div class="basket_modal-links">
+                    <a href="#!">Продолжить покупки</a>
+                    <a href="#!">Перейти в корзину</a>
+                </div>
+            </div>
+        </div>
+        <div class="basket_modal-bg"></div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
