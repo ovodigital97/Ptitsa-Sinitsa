@@ -880,15 +880,23 @@
                                         <img src="img/filter-arrow.svg" alt="" class="filter-arrow-icon">
                                     </button>
                                     <div class="dishes_filters">
-                                        <div class="filters_tabs">
-                                            <button class="filters_tab">
-                                                <span>Цена (руб.) </span>
+                                        <div class="filters_tab">
+                                            <button class="filters_tab_price" id="priceToggle">
+                                                <span>Цена (руб.)</span>
                                                 <img src="img/filter-arrow.svg" alt="">
                                             </button>
-                                            <div class="filters_tab-value">
-                                                <span>100 ₽</span>
-                                                <span>200 ₽</span>
-                                                <span>300 ₽</span>
+
+                                            <div class="price_panel" id="pricePanel">
+                                                <input type="text" id="priceMinInput" value="1 500">
+
+                                                <div class="range_wrap">
+                                                    <div class="track"></div>
+                                                    <div class="range" id="activeRange"></div>
+                                                    <input type="range" id="priceMin" min="0" max="10000" value="1500">
+                                                    <input type="range" id="priceMax" min="0" max="10000" value="8500">
+                                                </div>
+
+                                                <input type="text" id="priceMaxInput" value="8 500">
                                             </div>
                                         </div>
                                         <div class="filters_tabs">

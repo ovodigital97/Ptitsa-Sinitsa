@@ -50,7 +50,7 @@ basketModalBg.addEventListener('click', () => {
 
 document.addEventListener('click', (event) => {
     if (![...basketModalOpen].some(button => button.contains(event.target)) && !basketModal.contains(event.target)) {
-        basketModalOpen.forEach(button => button.classList.remove('active')); 
+        basketModalOpen.forEach(button => button.classList.remove('active'));
         basketModal.classList.remove('active');
     }
 });
@@ -716,3 +716,44 @@ window.addEventListener('click', function (e) {
         dropdownContent4.style.display = 'none'; // Hide the menu if clicked outside
     }
 });
+
+
+
+
+
+// range
+
+const toggle = document.getElementById('priceToggle');
+const panel = document.getElementById('pricePanel');
+
+toggle.addEventListener('click', () => {
+    toggle.classList.toggle('active');
+    panel.classList.toggle('open');
+});
+
+// RANGE LOGIC
+const minRange = document.getElementById('priceMin');
+const maxRange = document.getElementById('priceMax');
+const range = document.getElementById('activeRange');
+const minInput = document.getElementById('priceMinInput');
+const maxInput = document.getElementById('priceMaxInput');
+
+function updateRange() {
+    let min = +minRange.value;
+    let max = +maxRange.value;
+
+    if (max - min < 500) minRange.value = max - 500;
+
+    const percentMin = (minRange.value / minRange.max) * 100;
+    const percentMax = (maxRange.value / maxRange.max) * 100;
+
+    range.style.left = percentMin + '%';
+    range.style.right = (100 - percentMax) + '%';
+
+    minInput.value = min.toLocaleString('ru-RU');
+    maxInput.value = max.toLocaleString('ru-RU');
+}
+
+minRange.addEventListener('input', updateRange);
+maxRange.addEventListener('input', updateRange);
+updateRange();
